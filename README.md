@@ -21,7 +21,7 @@ With the [jquery.graphviz.svg](https://github.com/mountainstorm/jquery.graphviz.
 ### Demo with [jquery.graphviz.svg](https://github.com/mountainstorm/jquery.graphviz.svg)
 [Demo site](https://physicslovejava.github.io/classviz/)
 
-### Referred OR Inspired Projects
+### Inspiring Projects
 1. [https://github.com/nidi3/graphviz-java](https://github.com/nidi3/graphviz-java)
 2. [https://github.com/javaparser/javaparser](https://github.com/javaparser/javaparser)
 3. [https://github.com/plantuml/plantuml](https://github.com/plantuml/plantuml)
