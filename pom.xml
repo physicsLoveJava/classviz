@@ -11,6 +11,7 @@
     <modules>
         <module>classviz-visualize</module>
         <module>classviz-grammar</module>
+        <module>classviz-generation</module>
     </modules>
 
     <properties>
@@ -20,6 +21,21 @@
         <file_encoding>UTF-8</file_encoding>
         <maven_compiler_plugin_version>3.7.0</maven_compiler_plugin_version>
     </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.lujian</groupId>
+                <artifactId>classviz-grammar</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.lujian</groupId>
+                <artifactId>classviz-visualize</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <build>
         <pluginManagement>

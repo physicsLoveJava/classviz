@@ -1,0 +1,1270 @@
+<svg width="8059pt" height="385pt"
+ viewBox="0.00 0.00 8289.00 396.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(0.972222 0.972222) rotate(0) translate(36 360)">
+<title>sampleDigraph</title>
+<polygon fill="#2e3e56" stroke="none" points="-36,36 -36,-360 8253,-360 8253,36 -36,36"/>
+<!-- RunnableScheduledFuture -->
+<g id="node1" class="node"><title>RunnableScheduledFuture</title>
+<g id="a_node1"><a xlink:title="Interface">
+<polygon fill="#b4a7e5" stroke="#edad56" points="164,-36 0,-36 0,-0 164,-0 164,-36"/>
+<text text-anchor="middle" x="82" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">RunnableScheduledFuture</text>
+</a>
+</g>
+</g>
+<!-- RunnableFuture&lt;V&gt; -->
+<g id="node2" class="node"><title>RunnableFuture&lt;V&gt;</title>
+<g id="a_node2"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="147.5,-108 16.5,-108 16.5,-72 147.5,-72 147.5,-108"/>
+<text text-anchor="middle" x="82" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">RunnableFuture&lt;V&gt;</text>
+</a>
+</g>
+</g>
+<!-- RunnableScheduledFuture&#45;&gt;RunnableFuture&lt;V&gt; -->
+<g id="edge1" class="edge"><title>RunnableScheduledFuture&#45;&gt;RunnableFuture&lt;V&gt;</title>
+<path fill="none" stroke="#ffffff" d="M82,-36.3034C82,-44.0173 82,-53.2875 82,-61.8876"/>
+<polygon fill="none" stroke="#ffffff" points="78.5001,-61.8956 82,-71.8957 85.5001,-61.8957 78.5001,-61.8956"/>
+</g>
+<!-- ConcurrentLinkedQueue -->
+<g id="node3" class="node"><title>ConcurrentLinkedQueue</title>
+<g id="a_node3"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="1548,-108 1394,-108 1394,-72 1548,-72 1548,-108"/>
+<text text-anchor="middle" x="1471" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">ConcurrentLinkedQueue</text>
+</a>
+</g>
+</g>
+<!-- Queue -->
+<g id="node4" class="node"><title>Queue</title>
+<g id="a_node4"><a xlink:title="Interface">
+<polygon fill="#b4a7e5" stroke="#edad56" points="1497.5,-180 1444.5,-180 1444.5,-144 1497.5,-144 1497.5,-180"/>
+<text text-anchor="middle" x="1471" y="-158.3" font-family="Times New Roman,serif" font-size="14.00">Queue</text>
+</a>
+</g>
+</g>
+<!-- ConcurrentLinkedQueue&#45;&gt;Queue -->
+<g id="edge2" class="edge"><title>ConcurrentLinkedQueue&#45;&gt;Queue</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M1471,-108.303C1471,-116.017 1471,-125.288 1471,-133.888"/>
+<polygon fill="none" stroke="#ffffff" points="1467.5,-133.896 1471,-143.896 1474.5,-133.896 1467.5,-133.896"/>
+</g>
+<!-- Serializable -->
+<g id="node5" class="node"><title>Serializable</title>
+<g id="a_node5"><a xlink:title="Interface">
+<polygon fill="#b4a7e5" stroke="#edad56" points="2399.5,-180 2320.5,-180 2320.5,-144 2399.5,-144 2399.5,-180"/>
+<text text-anchor="middle" x="2360" y="-158.3" font-family="Times New Roman,serif" font-size="14.00">Serializable</text>
+</a>
+</g>
+</g>
+<!-- ConcurrentLinkedQueue&#45;&gt;Serializable -->
+<g id="edge3" class="edge"><title>ConcurrentLinkedQueue&#45;&gt;Serializable</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M1548.27,-106.83C1551.21,-107.256 1554.13,-107.649 1557,-108 1885.6,-148.208 1974.41,-89.8056 2301,-144 2304.06,-144.507 2307.18,-145.118 2310.31,-145.803"/>
+<polygon fill="none" stroke="#ffffff" points="2309.76,-149.269 2320.3,-148.205 2311.4,-142.463 2309.76,-149.269"/>
+</g>
+<!-- AbstractQueue&lt;E&gt; -->
+<g id="node6" class="node"><title>AbstractQueue&lt;E&gt;</title>
+<g id="a_node6"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="1297.5,-180 1172.5,-180 1172.5,-144 1297.5,-144 1297.5,-180"/>
+<text text-anchor="middle" x="1235" y="-158.3" font-family="Times New Roman,serif" font-size="14.00">AbstractQueue&lt;E&gt;</text>
+</a>
+</g>
+</g>
+<!-- ConcurrentLinkedQueue&#45;&gt;AbstractQueue&lt;E&gt; -->
+<g id="edge4" class="edge"><title>ConcurrentLinkedQueue&#45;&gt;AbstractQueue&lt;E&gt;</title>
+<path fill="none" stroke="#ffffff" d="M1413.57,-108.034C1380.02,-117.985 1337.51,-130.594 1302.39,-141.013"/>
+<polygon fill="none" stroke="#ffffff" points="1301.28,-137.69 1292.69,-143.889 1303.27,-144.401 1301.28,-137.69"/>
+</g>
+<!-- LockSupport -->
+<g id="node7" class="node"><title>LockSupport</title>
+<g id="a_node7"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="3839,-36 3747,-36 3747,-0 3839,-0 3839,-36"/>
+<text text-anchor="middle" x="3793" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">LockSupport</text>
+</a>
+</g>
+</g>
+<!-- ReadWriteLock -->
+<g id="node8" class="node"><title>ReadWriteLock</title>
+<g id="a_node8"><a xlink:title="Interface">
+<polygon fill="#b4a7e5" stroke="#edad56" points="3930,-180 3824,-180 3824,-144 3930,-144 3930,-180"/>
+<text text-anchor="middle" x="3877" y="-158.3" font-family="Times New Roman,serif" font-size="14.00">ReadWriteLock</text>
+</a>
+</g>
+</g>
+<!-- AtomicInteger -->
+<g id="node9" class="node"><title>AtomicInteger</title>
+<g id="a_node9"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="2408,-108 2312,-108 2312,-72 2408,-72 2408,-108"/>
+<text text-anchor="middle" x="2360" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">AtomicInteger</text>
+</a>
+</g>
+</g>
+<!-- AtomicInteger&#45;&gt;Serializable -->
+<g id="edge6" class="edge"><title>AtomicInteger&#45;&gt;Serializable</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M2360,-108.303C2360,-116.017 2360,-125.288 2360,-133.888"/>
+<polygon fill="none" stroke="#ffffff" points="2356.5,-133.896 2360,-143.896 2363.5,-133.896 2356.5,-133.896"/>
+</g>
+<!-- Number -->
+<g id="node10" class="node"><title>Number</title>
+<g id="a_node10"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="2292,-180 2230,-180 2230,-144 2292,-144 2292,-180"/>
+<text text-anchor="middle" x="2261" y="-158.3" font-family="Times New Roman,serif" font-size="14.00">Number</text>
+</a>
+</g>
+</g>
+<!-- AtomicInteger&#45;&gt;Number -->
+<g id="edge5" class="edge"><title>AtomicInteger&#45;&gt;Number</title>
+<path fill="none" stroke="#ffffff" d="M2335.78,-108.124C2323.08,-117.107 2307.34,-128.237 2293.58,-137.966"/>
+<polygon fill="none" stroke="#ffffff" points="2291.46,-135.179 2285.31,-143.81 2295.5,-140.895 2291.46,-135.179"/>
+</g>
+<!-- CopyOnWriteArrayList -->
+<g id="node11" class="node"><title>CopyOnWriteArrayList</title>
+<g id="a_node11"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="314.5,-108 165.5,-108 165.5,-72 314.5,-72 314.5,-108"/>
+<text text-anchor="middle" x="240" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">CopyOnWriteArrayList</text>
+</a>
+</g>
+</g>
+<!-- CopyOnWriteArrayList&#45;&gt;Serializable -->
+<g id="edge7" class="edge"><title>CopyOnWriteArrayList&#45;&gt;Serializable</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M314.538,-104.508C324.418,-105.909 334.434,-107.135 344,-108 777.194,-147.185 1870.89,-79.2301 2301,-144 2304.06,-144.461 2307.19,-145.037 2310.33,-145.695"/>
+<polygon fill="none" stroke="#ffffff" points="2309.79,-149.163 2320.33,-148.039 2311.39,-142.348 2309.79,-149.163"/>
+</g>
+<!-- Cloneable -->
+<g id="node12" class="node"><title>Cloneable</title>
+<g id="a_node12"><a xlink:title="Interface">
+<polygon fill="#b4a7e5" stroke="#edad56" points="331,-180 259,-180 259,-144 331,-144 331,-180"/>
+<text text-anchor="middle" x="295" y="-158.3" font-family="Times New Roman,serif" font-size="14.00">Cloneable</text>
+</a>
+</g>
+</g>
+<!-- CopyOnWriteArrayList&#45;&gt;Cloneable -->
+<g id="edge8" class="edge"><title>CopyOnWriteArrayList&#45;&gt;Cloneable</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M253.596,-108.303C260.123,-116.611 268.068,-126.723 275.247,-135.859"/>
+<polygon fill="none" stroke="#ffffff" points="272.631,-138.195 281.561,-143.896 278.135,-133.87 272.631,-138.195"/>
+</g>
+<!-- RandomAccess -->
+<g id="node13" class="node"><title>RandomAccess</title>
+<g id="a_node13"><a xlink:title="Interface">
+<polygon fill="#b4a7e5" stroke="#edad56" points="179,-180 73,-180 73,-144 179,-144 179,-180"/>
+<text text-anchor="middle" x="126" y="-158.3" font-family="Times New Roman,serif" font-size="14.00">RandomAccess</text>
+</a>
+</g>
+</g>
+<!-- CopyOnWriteArrayList&#45;&gt;RandomAccess -->
+<g id="edge9" class="edge"><title>CopyOnWriteArrayList&#45;&gt;RandomAccess</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M212.112,-108.124C197.207,-117.276 178.671,-128.658 162.618,-138.515"/>
+<polygon fill="none" stroke="#ffffff" points="160.685,-135.595 153.995,-143.81 164.348,-141.56 160.685,-135.595"/>
+</g>
+<!-- List -->
+<g id="node14" class="node"><title>List</title>
+<g id="a_node14"><a xlink:title="Interface">
+<polygon fill="#b4a7e5" stroke="#edad56" points="240.5,-180 197.5,-180 197.5,-144 240.5,-144 240.5,-180"/>
+<text text-anchor="middle" x="219" y="-158.3" font-family="Times New Roman,serif" font-size="14.00">List</text>
+</a>
+</g>
+</g>
+<!-- CopyOnWriteArrayList&#45;&gt;List -->
+<g id="edge10" class="edge"><title>CopyOnWriteArrayList&#45;&gt;List</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M234.809,-108.303C232.469,-116.102 229.653,-125.491 227.049,-134.171"/>
+<polygon fill="none" stroke="#ffffff" points="223.652,-133.312 224.131,-143.896 230.357,-135.323 223.652,-133.312"/>
+</g>
+<!-- RunnableFuture -->
+<g id="node15" class="node"><title>RunnableFuture</title>
+<g id="a_node15"><a xlink:title="Interface">
+<polygon fill="#b4a7e5" stroke="#edad56" points="4192.5,-108 4087.5,-108 4087.5,-72 4192.5,-72 4192.5,-108"/>
+<text text-anchor="middle" x="4140" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">RunnableFuture</text>
+</a>
+</g>
+</g>
+<!-- Runnable -->
+<g id="node16" class="node"><title>Runnable</title>
+<g id="a_node16"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="4174.5,-180 4105.5,-180 4105.5,-144 4174.5,-144 4174.5,-180"/>
+<text text-anchor="middle" x="4140" y="-158.3" font-family="Times New Roman,serif" font-size="14.00">Runnable</text>
+</a>
+</g>
+</g>
+<!-- RunnableFuture&#45;&gt;Runnable -->
+<g id="edge11" class="edge"><title>RunnableFuture&#45;&gt;Runnable</title>
+<path fill="none" stroke="#ffffff" d="M4140,-108.303C4140,-116.017 4140,-125.288 4140,-133.888"/>
+<polygon fill="none" stroke="#ffffff" points="4136.5,-133.896 4140,-143.896 4143.5,-133.896 4136.5,-133.896"/>
+</g>
+<!-- BrokenBarrierException -->
+<g id="node17" class="node"><title>BrokenBarrierException</title>
+<g id="a_node17"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="4349.5,-36 4198.5,-36 4198.5,-0 4349.5,-0 4349.5,-36"/>
+<text text-anchor="middle" x="4274" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">BrokenBarrierException</text>
+</a>
+</g>
+</g>
+<!-- Exception -->
+<g id="node18" class="node"><title>Exception</title>
+<g id="a_node18"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="4468.5,-108 4395.5,-108 4395.5,-72 4468.5,-72 4468.5,-108"/>
+<text text-anchor="middle" x="4432" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">Exception</text>
+</a>
+</g>
+</g>
+<!-- BrokenBarrierException&#45;&gt;Exception -->
+<g id="edge12" class="edge"><title>BrokenBarrierException&#45;&gt;Exception</title>
+<path fill="none" stroke="#ffffff" d="M4312.65,-36.1239C4334.81,-45.9424 4362.77,-58.3264 4386.05,-68.6409"/>
+<polygon fill="none" stroke="#ffffff" points="4384.82,-71.9236 4395.38,-72.7743 4387.65,-65.5236 4384.82,-71.9236"/>
+</g>
+<!-- AbstractExecutorService -->
+<g id="node19" class="node"><title>AbstractExecutorService</title>
+<g id="a_node19"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="4755,-180 4599,-180 4599,-144 4755,-144 4755,-180"/>
+<text text-anchor="middle" x="4677" y="-158.3" font-family="Times New Roman,serif" font-size="14.00">AbstractExecutorService</text>
+</a>
+</g>
+</g>
+<!-- ExecutorService -->
+<g id="node20" class="node"><title>ExecutorService</title>
+<g id="a_node20"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="4821,-252 4713,-252 4713,-216 4821,-216 4821,-252"/>
+<text text-anchor="middle" x="4767" y="-230.3" font-family="Times New Roman,serif" font-size="14.00">ExecutorService</text>
+</a>
+</g>
+</g>
+<!-- AbstractExecutorService&#45;&gt;ExecutorService -->
+<g id="edge13" class="edge"><title>AbstractExecutorService&#45;&gt;ExecutorService</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M4699.25,-180.303C4710.58,-189.119 4724.53,-199.968 4736.82,-209.526"/>
+<polygon fill="none" stroke="#ffffff" points="4734.97,-212.519 4745.01,-215.896 4739.26,-206.993 4734.97,-212.519"/>
+</g>
+<!-- Executor -->
+<g id="node21" class="node"><title>Executor</title>
+<g id="a_node21"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="4800.5,-324 4733.5,-324 4733.5,-288 4800.5,-288 4800.5,-324"/>
+<text text-anchor="middle" x="4767" y="-302.3" font-family="Times New Roman,serif" font-size="14.00">Executor</text>
+</a>
+</g>
+</g>
+<!-- ExecutorService&#45;&gt;Executor -->
+<g id="edge14" class="edge"><title>ExecutorService&#45;&gt;Executor</title>
+<path fill="none" stroke="#ffffff" d="M4767,-252.303C4767,-260.017 4767,-269.288 4767,-277.888"/>
+<polygon fill="none" stroke="#ffffff" points="4763.5,-277.896 4767,-287.896 4770.5,-277.896 4763.5,-277.896"/>
+</g>
+<!-- LinkedBlockingQueue -->
+<g id="node22" class="node"><title>LinkedBlockingQueue</title>
+<g id="a_node22"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="1069,-108 929,-108 929,-72 1069,-72 1069,-108"/>
+<text text-anchor="middle" x="999" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">LinkedBlockingQueue</text>
+</a>
+</g>
+</g>
+<!-- LinkedBlockingQueue&#45;&gt;Serializable -->
+<g id="edge16" class="edge"><title>LinkedBlockingQueue&#45;&gt;Serializable</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M1069.1,-106.779C1072.1,-107.234 1075.08,-107.645 1078,-108 1617.84,-173.472 1763.73,-60.0591 2301,-144 2304.06,-144.478 2307.19,-145.067 2310.32,-145.735"/>
+<polygon fill="none" stroke="#ffffff" points="2309.78,-149.202 2320.32,-148.1 2311.39,-142.391 2309.78,-149.202"/>
+</g>
+<!-- LinkedBlockingQueue&#45;&gt;AbstractQueue&lt;E&gt; -->
+<g id="edge17" class="edge"><title>LinkedBlockingQueue&#45;&gt;AbstractQueue&lt;E&gt;</title>
+<path fill="none" stroke="#ffffff" d="M1056.43,-108.034C1089.98,-117.985 1132.49,-130.594 1167.61,-141.013"/>
+<polygon fill="none" stroke="#ffffff" points="1166.73,-144.401 1177.31,-143.889 1168.72,-137.69 1166.73,-144.401"/>
+</g>
+<!-- BlockingQueue -->
+<g id="node23" class="node"><title>BlockingQueue</title>
+<g id="a_node23"><a xlink:title="Interface">
+<polygon fill="#b4a7e5" stroke="#edad56" points="1050,-180 948,-180 948,-144 1050,-144 1050,-180"/>
+<text text-anchor="middle" x="999" y="-158.3" font-family="Times New Roman,serif" font-size="14.00">BlockingQueue</text>
+</a>
+</g>
+</g>
+<!-- LinkedBlockingQueue&#45;&gt;BlockingQueue -->
+<g id="edge15" class="edge"><title>LinkedBlockingQueue&#45;&gt;BlockingQueue</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M999,-108.303C999,-116.017 999,-125.288 999,-133.888"/>
+<polygon fill="none" stroke="#ffffff" points="995.5,-133.896 999,-143.896 1002.5,-133.896 995.5,-133.896"/>
+</g>
+<!-- Queue&lt;E&gt; -->
+<g id="node24" class="node"><title>Queue&lt;E&gt;</title>
+<g id="a_node24"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="1037.5,-252 960.5,-252 960.5,-216 1037.5,-216 1037.5,-252"/>
+<text text-anchor="middle" x="999" y="-230.3" font-family="Times New Roman,serif" font-size="14.00">Queue&lt;E&gt;</text>
+</a>
+</g>
+</g>
+<!-- BlockingQueue&#45;&gt;Queue&lt;E&gt; -->
+<g id="edge18" class="edge"><title>BlockingQueue&#45;&gt;Queue&lt;E&gt;</title>
+<path fill="none" stroke="#ffffff" d="M999,-180.303C999,-188.017 999,-197.288 999,-205.888"/>
+<polygon fill="none" stroke="#ffffff" points="995.5,-205.896 999,-215.896 1002.5,-205.896 995.5,-205.896"/>
+</g>
+<!-- ScheduledFuture -->
+<g id="node25" class="node"><title>ScheduledFuture</title>
+<g id="a_node25"><a xlink:title="Interface">
+<polygon fill="#b4a7e5" stroke="#edad56" points="5087.5,-36 4976.5,-36 4976.5,-0 5087.5,-0 5087.5,-36"/>
+<text text-anchor="middle" x="5032" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">ScheduledFuture</text>
+</a>
+</g>
+</g>
+<!-- Delayed -->
+<g id="node26" class="node"><title>Delayed</title>
+<g id="a_node26"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="5063,-108 5001,-108 5001,-72 5063,-72 5063,-108"/>
+<text text-anchor="middle" x="5032" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">Delayed</text>
+</a>
+</g>
+</g>
+<!-- ScheduledFuture&#45;&gt;Delayed -->
+<g id="edge19" class="edge"><title>ScheduledFuture&#45;&gt;Delayed</title>
+<path fill="none" stroke="#ffffff" d="M5032,-36.3034C5032,-44.0173 5032,-53.2875 5032,-61.8876"/>
+<polygon fill="none" stroke="#ffffff" points="5028.5,-61.8956 5032,-71.8957 5035.5,-61.8957 5028.5,-61.8956"/>
+</g>
+<!-- Comparable&lt;Delayed&gt; -->
+<g id="node27" class="node"><title>Comparable&lt;Delayed&gt;</title>
+<g id="a_node27"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="5105,-180 4959,-180 4959,-144 5105,-144 5105,-180"/>
+<text text-anchor="middle" x="5032" y="-158.3" font-family="Times New Roman,serif" font-size="14.00">Comparable&lt;Delayed&gt;</text>
+</a>
+</g>
+</g>
+<!-- Delayed&#45;&gt;Comparable&lt;Delayed&gt; -->
+<g id="edge20" class="edge"><title>Delayed&#45;&gt;Comparable&lt;Delayed&gt;</title>
+<path fill="none" stroke="#ffffff" d="M5032,-108.303C5032,-116.017 5032,-125.288 5032,-133.888"/>
+<polygon fill="none" stroke="#ffffff" points="5028.5,-133.896 5032,-143.896 5035.5,-133.896 5028.5,-133.896"/>
+</g>
+<!-- ConcurrentSkipListMap -->
+<g id="node28" class="node"><title>ConcurrentSkipListMap</title>
+<g id="a_node28"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="505,-108 353,-108 353,-72 505,-72 505,-108"/>
+<text text-anchor="middle" x="429" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">ConcurrentSkipListMap</text>
+</a>
+</g>
+</g>
+<!-- ConcurrentSkipListMap&#45;&gt;Serializable -->
+<g id="edge23" class="edge"><title>ConcurrentSkipListMap&#45;&gt;Serializable</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M505.356,-106.935C508.269,-107.332 511.158,-107.69 514,-108 908.844,-151.117 1908.29,-84.511 2301,-144 2304.06,-144.464 2307.19,-145.042 2310.33,-145.701"/>
+<polygon fill="none" stroke="#ffffff" points="2309.79,-149.17 2320.32,-148.048 2311.39,-142.355 2309.79,-149.17"/>
+</g>
+<!-- ConcurrentSkipListMap&#45;&gt;Cloneable -->
+<g id="edge22" class="edge"><title>ConcurrentSkipListMap&#45;&gt;Cloneable</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M396.22,-108.124C378.375,-117.446 356.103,-129.081 336.997,-139.061"/>
+<polygon fill="none" stroke="#ffffff" points="335.149,-136.078 327.906,-143.81 338.39,-142.282 335.149,-136.078"/>
+</g>
+<!-- AbstractMap&lt;K,V&gt; -->
+<g id="node29" class="node"><title>AbstractMap&lt;K,V&gt;</title>
+<g id="a_node29"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="657,-180 527,-180 527,-144 657,-144 657,-180"/>
+<text text-anchor="middle" x="592" y="-158.3" font-family="Times New Roman,serif" font-size="14.00">AbstractMap&lt;K,V&gt;</text>
+</a>
+</g>
+</g>
+<!-- ConcurrentSkipListMap&#45;&gt;AbstractMap&lt;K,V&gt; -->
+<g id="edge21" class="edge"><title>ConcurrentSkipListMap&#45;&gt;AbstractMap&lt;K,V&gt;</title>
+<path fill="none" stroke="#ffffff" d="M468.874,-108.124C491.157,-117.693 519.115,-129.7 542.756,-139.852"/>
+<polygon fill="none" stroke="#ffffff" points="541.686,-143.202 552.255,-143.932 544.448,-136.77 541.686,-143.202"/>
+</g>
+<!-- ConcurrentNavigableMap -->
+<g id="node30" class="node"><title>ConcurrentNavigableMap</title>
+<g id="a_node30"><a xlink:title="Interface">
+<polygon fill="#b4a7e5" stroke="#edad56" points="509,-180 349,-180 349,-144 509,-144 509,-180"/>
+<text text-anchor="middle" x="429" y="-158.3" font-family="Times New Roman,serif" font-size="14.00">ConcurrentNavigableMap</text>
+</a>
+</g>
+</g>
+<!-- ConcurrentSkipListMap&#45;&gt;ConcurrentNavigableMap -->
+<g id="edge24" class="edge"><title>ConcurrentSkipListMap&#45;&gt;ConcurrentNavigableMap</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M429,-108.303C429,-116.017 429,-125.288 429,-133.888"/>
+<polygon fill="none" stroke="#ffffff" points="425.5,-133.896 429,-143.896 432.5,-133.896 425.5,-133.896"/>
+</g>
+<!-- ConcurrentMap&lt;K,V&gt; -->
+<g id="node31" class="node"><title>ConcurrentMap&lt;K,V&gt;</title>
+<g id="a_node31"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="501.5,-252 356.5,-252 356.5,-216 501.5,-216 501.5,-252"/>
+<text text-anchor="middle" x="429" y="-230.3" font-family="Times New Roman,serif" font-size="14.00">ConcurrentMap&lt;K,V&gt;</text>
+</a>
+</g>
+</g>
+<!-- ConcurrentNavigableMap&#45;&gt;ConcurrentMap&lt;K,V&gt; -->
+<g id="edge25" class="edge"><title>ConcurrentNavigableMap&#45;&gt;ConcurrentMap&lt;K,V&gt;</title>
+<path fill="none" stroke="#ffffff" d="M429,-180.303C429,-188.017 429,-197.288 429,-205.888"/>
+<polygon fill="none" stroke="#ffffff" points="425.5,-205.896 429,-215.896 432.5,-205.896 425.5,-205.896"/>
+</g>
+<!-- AbstractOwnableSynchronizer -->
+<g id="node32" class="node"><title>AbstractOwnableSynchronizer</title>
+<g id="a_node32"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="2652,-108 2464,-108 2464,-72 2652,-72 2652,-108"/>
+<text text-anchor="middle" x="2558" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">AbstractOwnableSynchronizer</text>
+</a>
+</g>
+</g>
+<!-- AbstractOwnableSynchronizer&#45;&gt;Serializable -->
+<g id="edge26" class="edge"><title>AbstractOwnableSynchronizer&#45;&gt;Serializable</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M2509.82,-108.034C2479.35,-118.807 2440.06,-132.695 2409.37,-143.547"/>
+<polygon fill="none" stroke="#ffffff" points="2407.99,-140.323 2399.73,-146.956 2410.32,-146.922 2407.99,-140.323"/>
+</g>
+<!-- AtomicReferenceFieldUpdater -->
+<g id="node33" class="node"><title>AtomicReferenceFieldUpdater</title>
+<g id="a_node33"><a xlink:title="AbstractClass">
+<polygon fill="#22d223" stroke="#edad56" points="5292.5,-36 5105.5,-36 5105.5,-0 5292.5,-0 5292.5,-36"/>
+<text text-anchor="middle" x="5199" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">AtomicReferenceFieldUpdater</text>
+</a>
+</g>
+</g>
+<!-- PriorityBlockingQueue -->
+<g id="node34" class="node"><title>PriorityBlockingQueue</title>
+<g id="a_node34"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="1230.5,-108 1087.5,-108 1087.5,-72 1230.5,-72 1230.5,-108"/>
+<text text-anchor="middle" x="1159" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">PriorityBlockingQueue</text>
+</a>
+</g>
+</g>
+<!-- PriorityBlockingQueue&#45;&gt;Serializable -->
+<g id="edge27" class="edge"><title>PriorityBlockingQueue&#45;&gt;Serializable</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M1230.86,-106.891C1233.6,-107.3 1236.32,-107.673 1239,-108 1707.78,-165.303 1834.55,-70.0592 2301,-144 2304.06,-144.485 2307.19,-145.079 2310.32,-145.751"/>
+<polygon fill="none" stroke="#ffffff" points="2309.77,-149.218 2320.31,-148.125 2311.39,-142.408 2309.77,-149.218"/>
+</g>
+<!-- PriorityBlockingQueue&#45;&gt;AbstractQueue&lt;E&gt; -->
+<g id="edge28" class="edge"><title>PriorityBlockingQueue&#45;&gt;AbstractQueue&lt;E&gt;</title>
+<path fill="none" stroke="#ffffff" d="M1177.79,-108.303C1187.17,-116.95 1198.68,-127.551 1208.91,-136.973"/>
+<polygon fill="none" stroke="#ffffff" points="1206.7,-139.695 1216.43,-143.896 1211.45,-134.546 1206.7,-139.695"/>
+</g>
+<!-- PriorityBlockingQueue&#45;&gt;BlockingQueue -->
+<g id="edge29" class="edge"><title>PriorityBlockingQueue&#45;&gt;BlockingQueue</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M1119.86,-108.124C1097.99,-117.693 1070.54,-129.7 1047.34,-139.852"/>
+<polygon fill="none" stroke="#ffffff" points="1045.77,-136.717 1038.01,-143.932 1048.58,-143.13 1045.77,-136.717"/>
+</g>
+<!-- Phaser -->
+<g id="node35" class="node"><title>Phaser</title>
+<g id="a_node35"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="5365,-36 5311,-36 5311,-0 5365,-0 5365,-36"/>
+<text text-anchor="middle" x="5338" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">Phaser</text>
+</a>
+</g>
+</g>
+<!-- RejectedExecutionHandler -->
+<g id="node36" class="node"><title>RejectedExecutionHandler</title>
+<g id="a_node36"><a xlink:title="Interface">
+<polygon fill="#b4a7e5" stroke="#edad56" points="5547,-36 5383,-36 5383,-0 5547,-0 5547,-36"/>
+<text text-anchor="middle" x="5465" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">RejectedExecutionHandler</text>
+</a>
+</g>
+</g>
+<!-- AtomicLong -->
+<g id="node37" class="node"><title>AtomicLong</title>
+<g id="a_node37"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="2293.5,-108 2206.5,-108 2206.5,-72 2293.5,-72 2293.5,-108"/>
+<text text-anchor="middle" x="2250" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">AtomicLong</text>
+</a>
+</g>
+</g>
+<!-- AtomicLong&#45;&gt;Serializable -->
+<g id="edge31" class="edge"><title>AtomicLong&#45;&gt;Serializable</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M2276.91,-108.124C2291.16,-117.192 2308.85,-128.448 2324.24,-138.241"/>
+<polygon fill="none" stroke="#ffffff" points="2322.67,-141.394 2332.99,-143.81 2326.43,-135.489 2322.67,-141.394"/>
+</g>
+<!-- AtomicLong&#45;&gt;Number -->
+<g id="edge30" class="edge"><title>AtomicLong&#45;&gt;Number</title>
+<path fill="none" stroke="#ffffff" d="M2252.72,-108.303C2253.93,-116.017 2255.39,-125.288 2256.74,-133.888"/>
+<polygon fill="none" stroke="#ffffff" points="2253.3,-134.56 2258.31,-143.896 2260.22,-133.474 2253.3,-134.56"/>
+</g>
+<!-- Condition -->
+<g id="node38" class="node"><title>Condition</title>
+<g id="a_node38"><a xlink:title="Interface">
+<polygon fill="#b4a7e5" stroke="#edad56" points="5637,-36 5565,-36 5565,-0 5637,-0 5637,-36"/>
+<text text-anchor="middle" x="5601" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">Condition</text>
+</a>
+</g>
+</g>
+<!-- ThreadPoolExecutor -->
+<g id="node39" class="node"><title>ThreadPoolExecutor</title>
+<g id="a_node39"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="4718.5,-108 4585.5,-108 4585.5,-72 4718.5,-72 4718.5,-108"/>
+<text text-anchor="middle" x="4652" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">ThreadPoolExecutor</text>
+</a>
+</g>
+</g>
+<!-- ThreadPoolExecutor&#45;&gt;AbstractExecutorService -->
+<g id="edge32" class="edge"><title>ThreadPoolExecutor&#45;&gt;AbstractExecutorService</title>
+<path fill="none" stroke="#ffffff" d="M4658.18,-108.303C4661,-116.187 4664.39,-125.696 4667.52,-134.454"/>
+<polygon fill="none" stroke="#ffffff" points="4664.23,-135.655 4670.89,-143.896 4670.82,-133.301 4664.23,-135.655"/>
+</g>
+<!-- RecursiveAction -->
+<g id="node40" class="node"><title>RecursiveAction</title>
+<g id="a_node40"><a xlink:title="AbstractClass">
+<polygon fill="#22d223" stroke="#edad56" points="5765,-36 5655,-36 5655,-0 5765,-0 5765,-36"/>
+<text text-anchor="middle" x="5710" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">RecursiveAction</text>
+</a>
+</g>
+</g>
+<!-- ForkJoinTask&lt;Void&gt; -->
+<g id="node41" class="node"><title>ForkJoinTask&lt;Void&gt;</title>
+<g id="a_node41"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="5779,-108 5641,-108 5641,-72 5779,-72 5779,-108"/>
+<text text-anchor="middle" x="5710" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">ForkJoinTask&lt;Void&gt;</text>
+</a>
+</g>
+</g>
+<!-- RecursiveAction&#45;&gt;ForkJoinTask&lt;Void&gt; -->
+<g id="edge33" class="edge"><title>RecursiveAction&#45;&gt;ForkJoinTask&lt;Void&gt;</title>
+<path fill="none" stroke="#ffffff" d="M5710,-36.3034C5710,-44.0173 5710,-53.2875 5710,-61.8876"/>
+<polygon fill="none" stroke="#ffffff" points="5706.5,-61.8956 5710,-71.8957 5713.5,-61.8957 5706.5,-61.8956"/>
+</g>
+<!-- AtomicReferenceArray -->
+<g id="node42" class="node"><title>AtomicReferenceArray</title>
+<g id="a_node42"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="2816,-108 2670,-108 2670,-72 2816,-72 2816,-108"/>
+<text text-anchor="middle" x="2743" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">AtomicReferenceArray</text>
+</a>
+</g>
+</g>
+<!-- AtomicReferenceArray&#45;&gt;Serializable -->
+<g id="edge34" class="edge"><title>AtomicReferenceArray&#45;&gt;Serializable</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M2669.7,-106.31C2666.77,-106.887 2663.86,-107.453 2661,-108 2572.57,-124.947 2469.13,-142.713 2409.42,-152.767"/>
+<polygon fill="none" stroke="#ffffff" points="2408.79,-149.324 2399.51,-154.433 2409.95,-156.227 2408.79,-149.324"/>
+</g>
+<!-- Future -->
+<g id="node43" class="node"><title>Future</title>
+<g id="a_node43"><a xlink:title="Interface">
+<polygon fill="#b4a7e5" stroke="#edad56" points="4048.5,-180 3995.5,-180 3995.5,-144 4048.5,-144 4048.5,-180"/>
+<text text-anchor="middle" x="4022" y="-158.3" font-family="Times New Roman,serif" font-size="14.00">Future</text>
+</a>
+</g>
+</g>
+<!-- RecursiveTask -->
+<g id="node44" class="node"><title>RecursiveTask</title>
+<g id="a_node44"><a xlink:title="AbstractClass">
+<polygon fill="#22d223" stroke="#edad56" points="5907,-36 5807,-36 5807,-0 5907,-0 5907,-36"/>
+<text text-anchor="middle" x="5857" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">RecursiveTask</text>
+</a>
+</g>
+</g>
+<!-- ForkJoinTask&lt;V&gt; -->
+<g id="node45" class="node"><title>ForkJoinTask&lt;V&gt;</title>
+<g id="a_node45"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="5917,-108 5797,-108 5797,-72 5917,-72 5917,-108"/>
+<text text-anchor="middle" x="5857" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">ForkJoinTask&lt;V&gt;</text>
+</a>
+</g>
+</g>
+<!-- RecursiveTask&#45;&gt;ForkJoinTask&lt;V&gt; -->
+<g id="edge35" class="edge"><title>RecursiveTask&#45;&gt;ForkJoinTask&lt;V&gt;</title>
+<path fill="none" stroke="#ffffff" d="M5857,-36.3034C5857,-44.0173 5857,-53.2875 5857,-61.8876"/>
+<polygon fill="none" stroke="#ffffff" points="5853.5,-61.8956 5857,-71.8957 5860.5,-61.8957 5853.5,-61.8956"/>
+</g>
+<!-- SynchronousQueue -->
+<g id="node46" class="node"><title>SynchronousQueue</title>
+<g id="a_node46"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="1375.5,-108 1248.5,-108 1248.5,-72 1375.5,-72 1375.5,-108"/>
+<text text-anchor="middle" x="1312" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">SynchronousQueue</text>
+</a>
+</g>
+</g>
+<!-- SynchronousQueue&#45;&gt;Serializable -->
+<g id="edge36" class="edge"><title>SynchronousQueue&#45;&gt;Serializable</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M1375.57,-106.551C1378.75,-107.094 1381.9,-107.583 1385,-108 1788.77,-162.448 1898.77,-79.1263 2301,-144 2304.06,-144.493 2307.18,-145.094 2310.32,-145.77"/>
+<polygon fill="none" stroke="#ffffff" points="2309.77,-149.237 2320.31,-148.155 2311.39,-142.429 2309.77,-149.237"/>
+</g>
+<!-- SynchronousQueue&#45;&gt;AbstractQueue&lt;E&gt; -->
+<g id="edge37" class="edge"><title>SynchronousQueue&#45;&gt;AbstractQueue&lt;E&gt;</title>
+<path fill="none" stroke="#ffffff" d="M1292.97,-108.303C1283.46,-116.95 1271.79,-127.551 1261.43,-136.973"/>
+<polygon fill="none" stroke="#ffffff" points="1258.86,-134.579 1253.81,-143.896 1263.57,-139.759 1258.86,-134.579"/>
+</g>
+<!-- SynchronousQueue&#45;&gt;BlockingQueue -->
+<g id="edge38" class="edge"><title>SynchronousQueue&#45;&gt;BlockingQueue</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M1248.31,-105.877C1245.16,-106.598 1242.05,-107.309 1239,-108 1178.2,-121.792 1108.62,-137.105 1060.1,-147.71"/>
+<polygon fill="none" stroke="#ffffff" points="1059.09,-144.347 1050.07,-149.9 1060.59,-151.185 1059.09,-144.347"/>
+</g>
+<!-- AtomicMarkableReference -->
+<g id="node47" class="node"><title>AtomicMarkableReference</title>
+<g id="a_node47"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="6091,-36 5925,-36 5925,-0 6091,-0 6091,-36"/>
+<text text-anchor="middle" x="6008" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">AtomicMarkableReference</text>
+</a>
+</g>
+</g>
+<!-- RejectedExecutionException -->
+<g id="node48" class="node"><title>RejectedExecutionException</title>
+<g id="a_node48"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="6286.5,-36 6109.5,-36 6109.5,-0 6286.5,-0 6286.5,-36"/>
+<text text-anchor="middle" x="6198" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">RejectedExecutionException</text>
+</a>
+</g>
+</g>
+<!-- RuntimeException -->
+<g id="node49" class="node"><title>RuntimeException</title>
+<g id="a_node49"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="6257.5,-108 6138.5,-108 6138.5,-72 6257.5,-72 6257.5,-108"/>
+<text text-anchor="middle" x="6198" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">RuntimeException</text>
+</a>
+</g>
+</g>
+<!-- RejectedExecutionException&#45;&gt;RuntimeException -->
+<g id="edge39" class="edge"><title>RejectedExecutionException&#45;&gt;RuntimeException</title>
+<path fill="none" stroke="#ffffff" d="M6198,-36.3034C6198,-44.0173 6198,-53.2875 6198,-61.8876"/>
+<polygon fill="none" stroke="#ffffff" points="6194.5,-61.8956 6198,-71.8957 6201.5,-61.8957 6194.5,-61.8956"/>
+</g>
+<!-- ArrayBlockingQueue -->
+<g id="node50" class="node"><title>ArrayBlockingQueue</title>
+<g id="a_node50"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="911,-108 777,-108 777,-72 911,-72 911,-108"/>
+<text text-anchor="middle" x="844" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">ArrayBlockingQueue</text>
+</a>
+</g>
+</g>
+<!-- ArrayBlockingQueue&#45;&gt;Serializable -->
+<g id="edge41" class="edge"><title>ArrayBlockingQueue&#45;&gt;Serializable</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M911.013,-106.73C914.042,-107.207 917.048,-107.635 920,-108 1529.34,-183.368 1694.21,-50.2445 2301,-144 2304.06,-144.473 2307.19,-145.058 2310.33,-145.723"/>
+<polygon fill="none" stroke="#ffffff" points="2309.78,-149.191 2320.32,-148.081 2311.39,-142.378 2309.78,-149.191"/>
+</g>
+<!-- ArrayBlockingQueue&#45;&gt;AbstractQueue&lt;E&gt; -->
+<g id="edge42" class="edge"><title>ArrayBlockingQueue&#45;&gt;AbstractQueue&lt;E&gt;</title>
+<path fill="none" stroke="#ffffff" d="M911.096,-106.212C914.102,-106.829 917.081,-107.428 920,-108 1002.78,-124.211 1098.4,-139.869 1162.38,-149.908"/>
+<polygon fill="none" stroke="#ffffff" points="1161.94,-153.383 1172.37,-151.471 1163.03,-146.467 1161.94,-153.383"/>
+</g>
+<!-- ArrayBlockingQueue&#45;&gt;BlockingQueue -->
+<g id="edge40" class="edge"><title>ArrayBlockingQueue&#45;&gt;BlockingQueue</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M881.917,-108.124C903.013,-117.651 929.456,-129.593 951.873,-139.717"/>
+<polygon fill="none" stroke="#ffffff" points="950.652,-143.006 961.206,-143.932 953.533,-136.626 950.652,-143.006"/>
+</g>
+<!-- AtomicLongArray -->
+<g id="node51" class="node"><title>AtomicLongArray</title>
+<g id="a_node51"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="2953.5,-108 2834.5,-108 2834.5,-72 2953.5,-72 2953.5,-108"/>
+<text text-anchor="middle" x="2894" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">AtomicLongArray</text>
+</a>
+</g>
+</g>
+<!-- AtomicLongArray&#45;&gt;Serializable -->
+<g id="edge43" class="edge"><title>AtomicLongArray&#45;&gt;Serializable</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M2834.26,-106.215C2831.14,-106.855 2828.04,-107.455 2825,-108 2675.1,-134.894 2495.44,-150.818 2409.95,-157.418"/>
+<polygon fill="none" stroke="#ffffff" points="2409.45,-153.946 2399.75,-158.196 2409.99,-160.925 2409.45,-153.946"/>
+</g>
+<!-- AtomicStampedReference -->
+<g id="node52" class="node"><title>AtomicStampedReference</title>
+<g id="a_node52"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="6469,-36 6305,-36 6305,-0 6469,-0 6469,-36"/>
+<text text-anchor="middle" x="6387" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">AtomicStampedReference</text>
+</a>
+</g>
+</g>
+<!-- ConcurrentLinkedDeque -->
+<g id="node53" class="node"><title>ConcurrentLinkedDeque</title>
+<g id="a_node53"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="3662,-108 3508,-108 3508,-72 3662,-72 3662,-108"/>
+<text text-anchor="middle" x="3585" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">ConcurrentLinkedDeque</text>
+</a>
+</g>
+</g>
+<!-- ConcurrentLinkedDeque&#45;&gt;Serializable -->
+<g id="edge44" class="edge"><title>ConcurrentLinkedDeque&#45;&gt;Serializable</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M3507.66,-106.198C3503.05,-106.871 3498.47,-107.481 3494,-108 3077.04,-156.456 2568.96,-160.969 2409.98,-161.118"/>
+<polygon fill="none" stroke="#ffffff" points="2409.58,-157.618 2399.58,-161.122 2409.58,-164.618 2409.58,-157.618"/>
+</g>
+<!-- Deque -->
+<g id="node54" class="node"><title>Deque</title>
+<g id="a_node54"><a xlink:title="Interface">
+<polygon fill="#b4a7e5" stroke="#edad56" points="3508.5,-180 3455.5,-180 3455.5,-144 3508.5,-144 3508.5,-180"/>
+<text text-anchor="middle" x="3482" y="-158.3" font-family="Times New Roman,serif" font-size="14.00">Deque</text>
+</a>
+</g>
+</g>
+<!-- ConcurrentLinkedDeque&#45;&gt;Deque -->
+<g id="edge45" class="edge"><title>ConcurrentLinkedDeque&#45;&gt;Deque</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M3559.8,-108.124C3546.59,-117.107 3530.21,-128.237 3515.89,-137.966"/>
+<polygon fill="none" stroke="#ffffff" points="3513.6,-135.295 3507.29,-143.81 3517.53,-141.084 3513.6,-135.295"/>
+</g>
+<!-- AbstractCollection&lt;E&gt; -->
+<g id="node55" class="node"><title>AbstractCollection&lt;E&gt;</title>
+<g id="a_node55"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="3673,-180 3527,-180 3527,-144 3673,-144 3673,-180"/>
+<text text-anchor="middle" x="3600" y="-158.3" font-family="Times New Roman,serif" font-size="14.00">AbstractCollection&lt;E&gt;</text>
+</a>
+</g>
+</g>
+<!-- ConcurrentLinkedDeque&#45;&gt;AbstractCollection&lt;E&gt; -->
+<g id="edge46" class="edge"><title>ConcurrentLinkedDeque&#45;&gt;AbstractCollection&lt;E&gt;</title>
+<path fill="none" stroke="#ffffff" d="M3588.71,-108.303C3590.36,-116.017 3592.35,-125.288 3594.19,-133.888"/>
+<polygon fill="none" stroke="#ffffff" points="3590.82,-134.851 3596.33,-143.896 3597.66,-133.384 3590.82,-134.851"/>
+</g>
+<!-- AtomicLongFieldUpdater -->
+<g id="node56" class="node"><title>AtomicLongFieldUpdater</title>
+<g id="a_node56"><a xlink:title="AbstractClass">
+<polygon fill="#22d223" stroke="#edad56" points="6647,-36 6487,-36 6487,-0 6647,-0 6647,-36"/>
+<text text-anchor="middle" x="6567" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">AtomicLongFieldUpdater</text>
+</a>
+</g>
+</g>
+<!-- ReentrantLock -->
+<g id="node57" class="node"><title>ReentrantLock</title>
+<g id="a_node57"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="3779.5,-108 3680.5,-108 3680.5,-72 3779.5,-72 3779.5,-108"/>
+<text text-anchor="middle" x="3730" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">ReentrantLock</text>
+</a>
+</g>
+</g>
+<!-- ReentrantLock&#45;&gt;Serializable -->
+<g id="edge47" class="edge"><title>ReentrantLock&#45;&gt;Serializable</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M3680.3,-106.23C3677.17,-106.906 3674.05,-107.506 3671,-108 3421.26,-148.423 2617.9,-158.6 2409.67,-160.585"/>
+<polygon fill="none" stroke="#ffffff" points="2409.61,-157.085 2399.64,-160.679 2409.67,-164.085 2409.61,-157.085"/>
+</g>
+<!-- Lock -->
+<g id="node58" class="node"><title>Lock</title>
+<g id="a_node58"><a xlink:title="Interface">
+<polygon fill="#b4a7e5" stroke="#edad56" points="3753,-180 3707,-180 3707,-144 3753,-144 3753,-180"/>
+<text text-anchor="middle" x="3730" y="-158.3" font-family="Times New Roman,serif" font-size="14.00">Lock</text>
+</a>
+</g>
+</g>
+<!-- ReentrantLock&#45;&gt;Lock -->
+<g id="edge48" class="edge"><title>ReentrantLock&#45;&gt;Lock</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M3730,-108.303C3730,-116.017 3730,-125.288 3730,-133.888"/>
+<polygon fill="none" stroke="#ffffff" points="3726.5,-133.896 3730,-143.896 3733.5,-133.896 3726.5,-133.896"/>
+</g>
+<!-- CopyOnWriteArraySet -->
+<g id="node59" class="node"><title>CopyOnWriteArraySet</title>
+<g id="a_node59"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="2188,-108 2042,-108 2042,-72 2188,-72 2188,-108"/>
+<text text-anchor="middle" x="2115" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">CopyOnWriteArraySet</text>
+</a>
+</g>
+</g>
+<!-- CopyOnWriteArraySet&#45;&gt;Serializable -->
+<g id="edge49" class="edge"><title>CopyOnWriteArraySet&#45;&gt;Serializable</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M2174.91,-108.021C2211.37,-118.393 2258.88,-131.93 2301,-144 2304.13,-144.896 2307.34,-145.819 2310.59,-146.751"/>
+<polygon fill="none" stroke="#ffffff" points="2309.76,-150.154 2320.33,-149.553 2311.69,-143.426 2309.76,-150.154"/>
+</g>
+<!-- AbstractSet&lt;E&gt; -->
+<g id="node60" class="node"><title>AbstractSet&lt;E&gt;</title>
+<g id="a_node60"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="1919.5,-180 1812.5,-180 1812.5,-144 1919.5,-144 1919.5,-180"/>
+<text text-anchor="middle" x="1866" y="-158.3" font-family="Times New Roman,serif" font-size="14.00">AbstractSet&lt;E&gt;</text>
+</a>
+</g>
+</g>
+<!-- CopyOnWriteArraySet&#45;&gt;AbstractSet&lt;E&gt; -->
+<g id="edge50" class="edge"><title>CopyOnWriteArraySet&#45;&gt;AbstractSet&lt;E&gt;</title>
+<path fill="none" stroke="#ffffff" d="M2054.41,-108.034C2016.61,-118.659 1968.04,-132.314 1929.68,-143.098"/>
+<polygon fill="none" stroke="#ffffff" points="1928.33,-139.841 1919.65,-145.916 1930.23,-146.579 1928.33,-139.841"/>
+</g>
+<!-- ReentrantReadWriteLock -->
+<g id="node61" class="node"><title>ReentrantReadWriteLock</title>
+<g id="a_node61"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="3956.5,-108 3797.5,-108 3797.5,-72 3956.5,-72 3956.5,-108"/>
+<text text-anchor="middle" x="3877" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">ReentrantReadWriteLock</text>
+</a>
+</g>
+</g>
+<!-- ReentrantReadWriteLock&#45;&gt;Serializable -->
+<g id="edge51" class="edge"><title>ReentrantReadWriteLock&#45;&gt;Serializable</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M3797.03,-106.867C3793.99,-107.283 3790.97,-107.663 3788,-108 3512.57,-139.234 2629.89,-156.324 2409.98,-160.163"/>
+<polygon fill="none" stroke="#ffffff" points="2409.66,-156.668 2399.72,-160.341 2409.78,-163.667 2409.66,-156.668"/>
+</g>
+<!-- ReentrantReadWriteLock&#45;&gt;ReadWriteLock -->
+<g id="edge52" class="edge"><title>ReentrantReadWriteLock&#45;&gt;ReadWriteLock</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M3877,-108.303C3877,-116.017 3877,-125.288 3877,-133.888"/>
+<polygon fill="none" stroke="#ffffff" points="3873.5,-133.896 3877,-143.896 3880.5,-133.896 3873.5,-133.896"/>
+</g>
+<!-- CancellationException -->
+<g id="node62" class="node"><title>CancellationException</title>
+<g id="a_node62"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="6806.5,-36 6665.5,-36 6665.5,-0 6806.5,-0 6806.5,-36"/>
+<text text-anchor="middle" x="6736" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">CancellationException</text>
+</a>
+</g>
+</g>
+<!-- IllegalStateException -->
+<g id="node63" class="node"><title>IllegalStateException</title>
+<g id="a_node63"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="6802.5,-108 6669.5,-108 6669.5,-72 6802.5,-72 6802.5,-108"/>
+<text text-anchor="middle" x="6736" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">IllegalStateException</text>
+</a>
+</g>
+</g>
+<!-- CancellationException&#45;&gt;IllegalStateException -->
+<g id="edge53" class="edge"><title>CancellationException&#45;&gt;IllegalStateException</title>
+<path fill="none" stroke="#ffffff" d="M6736,-36.3034C6736,-44.0173 6736,-53.2875 6736,-61.8876"/>
+<polygon fill="none" stroke="#ffffff" points="6732.5,-61.8956 6736,-71.8957 6739.5,-61.8957 6732.5,-61.8956"/>
+</g>
+<!-- Exchanger -->
+<g id="node64" class="node"><title>Exchanger</title>
+<g id="a_node64"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="6899.5,-36 6824.5,-36 6824.5,-0 6899.5,-0 6899.5,-36"/>
+<text text-anchor="middle" x="6862" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">Exchanger</text>
+</a>
+</g>
+</g>
+<!-- DelayQueue -->
+<g id="node65" class="node"><title>DelayQueue</title>
+<g id="a_node65"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="759,-108 675,-108 675,-72 759,-72 759,-108"/>
+<text text-anchor="middle" x="717" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">DelayQueue</text>
+</a>
+</g>
+</g>
+<!-- DelayQueue&#45;&gt;AbstractQueue&lt;E&gt; -->
+<g id="edge55" class="edge"><title>DelayQueue&#45;&gt;AbstractQueue&lt;E&gt;</title>
+<path fill="none" stroke="#ffffff" d="M759.11,-105.79C762.1,-106.607 765.084,-107.356 768,-108 805.538,-116.291 1040.88,-141.096 1162.46,-153.609"/>
+<polygon fill="none" stroke="#ffffff" points="1162.13,-157.094 1172.44,-154.635 1162.85,-150.13 1162.13,-157.094"/>
+</g>
+<!-- DelayQueue&#45;&gt;BlockingQueue -->
+<g id="edge54" class="edge"><title>DelayQueue&#45;&gt;BlockingQueue</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M759.204,-105.416C762.171,-106.322 765.125,-107.193 768,-108 825.022,-124.005 890.949,-138.767 937.74,-148.625"/>
+<polygon fill="none" stroke="#ffffff" points="937.215,-152.09 947.72,-150.714 938.65,-145.239 937.215,-152.09"/>
+</g>
+<!-- ThreadFactory -->
+<g id="node66" class="node"><title>ThreadFactory</title>
+<g id="a_node66"><a xlink:title="Interface">
+<polygon fill="#b4a7e5" stroke="#edad56" points="7018,-36 6918,-36 6918,-0 7018,-0 7018,-36"/>
+<text text-anchor="middle" x="6968" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">ThreadFactory</text>
+</a>
+</g>
+</g>
+<!-- ForkJoinPool -->
+<g id="node67" class="node"><title>ForkJoinPool</title>
+<g id="a_node67"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="4829,-108 4737,-108 4737,-72 4829,-72 4829,-108"/>
+<text text-anchor="middle" x="4783" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">ForkJoinPool</text>
+</a>
+</g>
+</g>
+<!-- ForkJoinPool&#45;&gt;AbstractExecutorService -->
+<g id="edge56" class="edge"><title>ForkJoinPool&#45;&gt;AbstractExecutorService</title>
+<path fill="none" stroke="#ffffff" d="M4757.07,-108.124C4743.34,-117.192 4726.29,-128.448 4711.46,-138.241"/>
+<polygon fill="none" stroke="#ffffff" points="4709.45,-135.379 4703.03,-143.81 4713.3,-141.22 4709.45,-135.379"/>
+</g>
+<!-- ExecutionException -->
+<g id="node68" class="node"><title>ExecutionException</title>
+<g id="a_node68"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="4496,-36 4368,-36 4368,-0 4496,-0 4496,-36"/>
+<text text-anchor="middle" x="4432" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">ExecutionException</text>
+</a>
+</g>
+</g>
+<!-- ExecutionException&#45;&gt;Exception -->
+<g id="edge57" class="edge"><title>ExecutionException&#45;&gt;Exception</title>
+<path fill="none" stroke="#ffffff" d="M4432,-36.3034C4432,-44.0173 4432,-53.2875 4432,-61.8876"/>
+<polygon fill="none" stroke="#ffffff" points="4428.5,-61.8956 4432,-71.8957 4435.5,-61.8957 4428.5,-61.8956"/>
+</g>
+<!-- ExecutorCompletionService -->
+<g id="node69" class="node"><title>ExecutorCompletionService</title>
+<g id="a_node69"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="7209.5,-36 7036.5,-36 7036.5,-0 7209.5,-0 7209.5,-36"/>
+<text text-anchor="middle" x="7123" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">ExecutorCompletionService</text>
+</a>
+</g>
+</g>
+<!-- CompletionService -->
+<g id="node70" class="node"><title>CompletionService</title>
+<g id="a_node70"><a xlink:title="Interface">
+<polygon fill="#b4a7e5" stroke="#edad56" points="7184.5,-108 7061.5,-108 7061.5,-72 7184.5,-72 7184.5,-108"/>
+<text text-anchor="middle" x="7123" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">CompletionService</text>
+</a>
+</g>
+</g>
+<!-- ExecutorCompletionService&#45;&gt;CompletionService -->
+<g id="edge58" class="edge"><title>ExecutorCompletionService&#45;&gt;CompletionService</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M7123,-36.3034C7123,-44.0173 7123,-53.2875 7123,-61.8876"/>
+<polygon fill="none" stroke="#ffffff" points="7119.5,-61.8956 7123,-71.8957 7126.5,-61.8957 7119.5,-61.8956"/>
+</g>
+<!-- BlockingDeque -->
+<g id="node71" class="node"><title>BlockingDeque</title>
+<g id="a_node71"><a xlink:title="Interface">
+<polygon fill="#b4a7e5" stroke="#edad56" points="1687,-180 1585,-180 1585,-144 1687,-144 1687,-180"/>
+<text text-anchor="middle" x="1636" y="-158.3" font-family="Times New Roman,serif" font-size="14.00">BlockingDeque</text>
+</a>
+</g>
+</g>
+<!-- BlockingQueue&lt;E&gt; -->
+<g id="node72" class="node"><title>BlockingQueue&lt;E&gt;</title>
+<g id="a_node72"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="1875.5,-252 1748.5,-252 1748.5,-216 1875.5,-216 1875.5,-252"/>
+<text text-anchor="middle" x="1812" y="-230.3" font-family="Times New Roman,serif" font-size="14.00">BlockingQueue&lt;E&gt;</text>
+</a>
+</g>
+</g>
+<!-- BlockingDeque&#45;&gt;BlockingQueue&lt;E&gt; -->
+<g id="edge59" class="edge"><title>BlockingDeque&#45;&gt;BlockingQueue&lt;E&gt;</title>
+<path fill="none" stroke="#ffffff" d="M1679.05,-180.124C1703.33,-189.778 1733.84,-201.913 1759.51,-212.122"/>
+<polygon fill="none" stroke="#ffffff" points="1758.5,-215.488 1769.09,-215.932 1761.09,-208.984 1758.5,-215.488"/>
+</g>
+<!-- ConcurrentSkipListSet -->
+<g id="node73" class="node"><title>ConcurrentSkipListSet</title>
+<g id="a_node73"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="1868,-108 1724,-108 1724,-72 1868,-72 1868,-108"/>
+<text text-anchor="middle" x="1796" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">ConcurrentSkipListSet</text>
+</a>
+</g>
+</g>
+<!-- ConcurrentSkipListSet&#45;&gt;Serializable -->
+<g id="edge61" class="edge"><title>ConcurrentSkipListSet&#45;&gt;Serializable</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M1868.34,-106.641C1871.26,-107.127 1874.16,-107.583 1877,-108 2064.12,-135.474 2115.02,-109.654 2301,-144 2304.05,-144.563 2307.16,-145.217 2310.29,-145.934"/>
+<polygon fill="none" stroke="#ffffff" points="2309.72,-149.397 2320.26,-148.406 2311.4,-142.603 2309.72,-149.397"/>
+</g>
+<!-- ConcurrentSkipListSet&#45;&gt;Cloneable -->
+<g id="edge60" class="edge"><title>ConcurrentSkipListSet&#45;&gt;Cloneable</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M1723.68,-106.853C1720.76,-107.28 1717.85,-107.666 1715,-108 1414.67,-143.155 656.465,-86.4094 341.158,-144.27"/>
+<polygon fill="none" stroke="#ffffff" points="340.213,-140.887 331.044,-146.196 341.522,-147.764 340.213,-140.887"/>
+</g>
+<!-- ConcurrentSkipListSet&#45;&gt;AbstractSet&lt;E&gt; -->
+<g id="edge63" class="edge"><title>ConcurrentSkipListSet&#45;&gt;AbstractSet&lt;E&gt;</title>
+<path fill="none" stroke="#ffffff" d="M1813.3,-108.303C1821.86,-116.865 1832.34,-127.344 1841.7,-136.696"/>
+<polygon fill="none" stroke="#ffffff" points="1839.35,-139.299 1848.9,-143.896 1844.3,-134.35 1839.35,-139.299"/>
+</g>
+<!-- NavigableSet -->
+<g id="node74" class="node"><title>NavigableSet</title>
+<g id="a_node74"><a xlink:title="Interface">
+<polygon fill="#b4a7e5" stroke="#edad56" points="1794.5,-180 1705.5,-180 1705.5,-144 1794.5,-144 1794.5,-180"/>
+<text text-anchor="middle" x="1750" y="-158.3" font-family="Times New Roman,serif" font-size="14.00">NavigableSet</text>
+</a>
+</g>
+</g>
+<!-- ConcurrentSkipListSet&#45;&gt;NavigableSet -->
+<g id="edge62" class="edge"><title>ConcurrentSkipListSet&#45;&gt;NavigableSet</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M1784.63,-108.303C1779.28,-116.441 1772.8,-126.311 1766.89,-135.299"/>
+<polygon fill="none" stroke="#ffffff" points="1763.81,-133.616 1761.24,-143.896 1769.66,-137.461 1763.81,-133.616"/>
+</g>
+<!-- FutureTask -->
+<g id="node75" class="node"><title>FutureTask</title>
+<g id="a_node75"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="4180,-36 4100,-36 4100,-0 4180,-0 4180,-36"/>
+<text text-anchor="middle" x="4140" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">FutureTask</text>
+</a>
+</g>
+</g>
+<!-- FutureTask&#45;&gt;RunnableFuture -->
+<g id="edge64" class="edge"><title>FutureTask&#45;&gt;RunnableFuture</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M4140,-36.3034C4140,-44.0173 4140,-53.2875 4140,-61.8876"/>
+<polygon fill="none" stroke="#ffffff" points="4136.5,-61.8956 4140,-71.8957 4143.5,-61.8957 4136.5,-61.8956"/>
+</g>
+<!-- AbstractQueuedLongSynchronizer -->
+<g id="node76" class="node"><title>AbstractQueuedLongSynchronizer</title>
+<g id="a_node76"><a xlink:title="AbstractClass">
+<polygon fill="#22d223" stroke="#edad56" points="3121.5,-36 2910.5,-36 2910.5,-0 3121.5,-0 3121.5,-36"/>
+<text text-anchor="middle" x="3016" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">AbstractQueuedLongSynchronizer</text>
+</a>
+</g>
+</g>
+<!-- AbstractQueuedLongSynchronizer&#45;&gt;Serializable -->
+<g id="edge65" class="edge"><title>AbstractQueuedLongSynchronizer&#45;&gt;Serializable</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M3121.66,-24.3261C3246.1,-31.7026 3438.82,-47.0201 3461,-72 3471.62,-83.964 3472.04,-96.4175 3461,-108 3424.28,-146.528 2619.73,-158.12 2409.76,-160.494"/>
+<polygon fill="none" stroke="#ffffff" points="2409.6,-156.995 2399.64,-160.606 2409.68,-163.995 2409.6,-156.995"/>
+</g>
+<!-- AbstractQueuedLongSynchronizer&#45;&gt;AbstractOwnableSynchronizer -->
+<g id="edge66" class="edge"><title>AbstractQueuedLongSynchronizer&#45;&gt;AbstractOwnableSynchronizer</title>
+<path fill="none" stroke="#ffffff" d="M2910.31,-34.3455C2842.23,-44.3322 2751.55,-57.8256 2662.07,-71.8433"/>
+<polygon fill="none" stroke="#ffffff" points="2661.35,-68.4135 2652.01,-73.4219 2662.44,-75.3288 2661.35,-68.4135"/>
+</g>
+<!-- Executors -->
+<g id="node77" class="node"><title>Executors</title>
+<g id="a_node77"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="7300.5,-36 7227.5,-36 7227.5,-0 7300.5,-0 7300.5,-36"/>
+<text text-anchor="middle" x="7264" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">Executors</text>
+</a>
+</g>
+</g>
+<!-- ForkJoinWorkerThread -->
+<g id="node78" class="node"><title>ForkJoinWorkerThread</title>
+<g id="a_node78"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="7467.5,-36 7318.5,-36 7318.5,-0 7467.5,-0 7467.5,-36"/>
+<text text-anchor="middle" x="7393" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">ForkJoinWorkerThread</text>
+</a>
+</g>
+</g>
+<!-- Thread -->
+<g id="node79" class="node"><title>Thread</title>
+<g id="a_node79"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="7421,-108 7365,-108 7365,-72 7421,-72 7421,-108"/>
+<text text-anchor="middle" x="7393" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">Thread</text>
+</a>
+</g>
+</g>
+<!-- ForkJoinWorkerThread&#45;&gt;Thread -->
+<g id="edge67" class="edge"><title>ForkJoinWorkerThread&#45;&gt;Thread</title>
+<path fill="none" stroke="#ffffff" d="M7393,-36.3034C7393,-44.0173 7393,-53.2875 7393,-61.8876"/>
+<polygon fill="none" stroke="#ffffff" points="7389.5,-61.8956 7393,-71.8957 7396.5,-61.8957 7389.5,-61.8956"/>
+</g>
+<!-- AtomicReference -->
+<g id="node80" class="node"><title>AtomicReference</title>
+<g id="a_node80"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="3086,-108 2972,-108 2972,-72 3086,-72 3086,-108"/>
+<text text-anchor="middle" x="3029" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">AtomicReference</text>
+</a>
+</g>
+</g>
+<!-- AtomicReference&#45;&gt;Serializable -->
+<g id="edge68" class="edge"><title>AtomicReference&#45;&gt;Serializable</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M2971.75,-106.171C2968.46,-106.841 2965.19,-107.458 2962,-108 2758.99,-142.461 2513.43,-155.234 2409.88,-159.318"/>
+<polygon fill="none" stroke="#ffffff" points="2409.58,-155.827 2399.72,-159.709 2409.85,-162.822 2409.58,-155.827"/>
+</g>
+<!-- LinkedBlockingDeque -->
+<g id="node81" class="node"><title>LinkedBlockingDeque</title>
+<g id="a_node81"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="1706,-108 1566,-108 1566,-72 1706,-72 1706,-108"/>
+<text text-anchor="middle" x="1636" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">LinkedBlockingDeque</text>
+</a>
+</g>
+</g>
+<!-- LinkedBlockingDeque&#45;&gt;Serializable -->
+<g id="edge71" class="edge"><title>LinkedBlockingDeque&#45;&gt;Serializable</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M1706.11,-106.661C1709.11,-107.149 1712.08,-107.599 1715,-108 1973.5,-143.548 2043.87,-99.6109 2301,-144 2304.05,-144.527 2307.17,-145.153 2310.31,-145.85"/>
+<polygon fill="none" stroke="#ffffff" points="2309.74,-149.315 2320.29,-148.277 2311.4,-142.513 2309.74,-149.315"/>
+</g>
+<!-- LinkedBlockingDeque&#45;&gt;AbstractQueue&lt;E&gt; -->
+<g id="edge70" class="edge"><title>LinkedBlockingDeque&#45;&gt;AbstractQueue&lt;E&gt;</title>
+<path fill="none" stroke="#ffffff" d="M1565.82,-106.287C1562.85,-106.877 1559.89,-107.451 1557,-108 1471.8,-124.168 1373.38,-139.949 1307.99,-150.026"/>
+<polygon fill="none" stroke="#ffffff" points="1307.14,-146.615 1297.79,-151.593 1308.21,-153.534 1307.14,-146.615"/>
+</g>
+<!-- LinkedBlockingDeque&#45;&gt;BlockingDeque -->
+<g id="edge69" class="edge"><title>LinkedBlockingDeque&#45;&gt;BlockingDeque</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M1636,-108.303C1636,-116.017 1636,-125.288 1636,-133.888"/>
+<polygon fill="none" stroke="#ffffff" points="1632.5,-133.896 1636,-143.896 1639.5,-133.896 1632.5,-133.896"/>
+</g>
+<!-- ThreadLocalRandom -->
+<g id="node82" class="node"><title>ThreadLocalRandom</title>
+<g id="a_node82"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="7622,-36 7486,-36 7486,-0 7622,-0 7622,-36"/>
+<text text-anchor="middle" x="7554" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">ThreadLocalRandom</text>
+</a>
+</g>
+</g>
+<!-- Random -->
+<g id="node83" class="node"><title>Random</title>
+<g id="a_node83"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="7586.5,-108 7521.5,-108 7521.5,-72 7586.5,-72 7586.5,-108"/>
+<text text-anchor="middle" x="7554" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">Random</text>
+</a>
+</g>
+</g>
+<!-- ThreadLocalRandom&#45;&gt;Random -->
+<g id="edge72" class="edge"><title>ThreadLocalRandom&#45;&gt;Random</title>
+<path fill="none" stroke="#ffffff" d="M7554,-36.3034C7554,-44.0173 7554,-53.2875 7554,-61.8876"/>
+<polygon fill="none" stroke="#ffffff" points="7550.5,-61.8956 7554,-71.8957 7557.5,-61.8957 7550.5,-61.8956"/>
+</g>
+<!-- CyclicBarrier -->
+<g id="node84" class="node"><title>CyclicBarrier</title>
+<g id="a_node84"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="7730,-36 7640,-36 7640,-0 7730,-0 7730,-36"/>
+<text text-anchor="middle" x="7685" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">CyclicBarrier</text>
+</a>
+</g>
+</g>
+<!-- ConcurrentMap -->
+<g id="node85" class="node"><title>ConcurrentMap</title>
+<g id="a_node85"><a xlink:title="Interface">
+<polygon fill="#b4a7e5" stroke="#edad56" points="780.5,-180 675.5,-180 675.5,-144 780.5,-144 780.5,-180"/>
+<text text-anchor="middle" x="728" y="-158.3" font-family="Times New Roman,serif" font-size="14.00">ConcurrentMap</text>
+</a>
+</g>
+</g>
+<!-- Map&lt;K,V&gt; -->
+<g id="node86" class="node"><title>Map&lt;K,V&gt;</title>
+<g id="a_node86"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="769,-252 687,-252 687,-216 769,-216 769,-252"/>
+<text text-anchor="middle" x="728" y="-230.3" font-family="Times New Roman,serif" font-size="14.00">Map&lt;K,V&gt;</text>
+</a>
+</g>
+</g>
+<!-- ConcurrentMap&#45;&gt;Map&lt;K,V&gt; -->
+<g id="edge73" class="edge"><title>ConcurrentMap&#45;&gt;Map&lt;K,V&gt;</title>
+<path fill="none" stroke="#ffffff" d="M728,-180.303C728,-188.017 728,-197.288 728,-205.888"/>
+<polygon fill="none" stroke="#ffffff" points="724.5,-205.896 728,-215.896 731.5,-205.896 724.5,-205.896"/>
+</g>
+<!-- AtomicIntegerArray -->
+<g id="node87" class="node"><title>AtomicIntegerArray</title>
+<g id="a_node87"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="3232,-108 3104,-108 3104,-72 3232,-72 3232,-108"/>
+<text text-anchor="middle" x="3168" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">AtomicIntegerArray</text>
+</a>
+</g>
+</g>
+<!-- AtomicIntegerArray&#45;&gt;Serializable -->
+<g id="edge74" class="edge"><title>AtomicIntegerArray&#45;&gt;Serializable</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M3103.62,-106.57C3100.71,-107.09 3097.83,-107.571 3095,-108 2839.3,-146.748 2529.12,-157.349 2409.94,-160.095"/>
+<polygon fill="none" stroke="#ffffff" points="2409.6,-156.601 2399.68,-160.322 2409.76,-163.6 2409.6,-156.601"/>
+</g>
+<!-- TransferQueue -->
+<g id="node88" class="node"><title>TransferQueue</title>
+<g id="a_node88"><a xlink:title="Interface">
+<polygon fill="#b4a7e5" stroke="#edad56" points="2038,-180 1938,-180 1938,-144 2038,-144 2038,-180"/>
+<text text-anchor="middle" x="1988" y="-158.3" font-family="Times New Roman,serif" font-size="14.00">TransferQueue</text>
+</a>
+</g>
+</g>
+<!-- TransferQueue&#45;&gt;BlockingQueue&lt;E&gt; -->
+<g id="edge75" class="edge"><title>TransferQueue&#45;&gt;BlockingQueue&lt;E&gt;</title>
+<path fill="none" stroke="#ffffff" d="M1944.95,-180.124C1920.67,-189.778 1890.16,-201.913 1864.49,-212.122"/>
+<polygon fill="none" stroke="#ffffff" points="1862.91,-208.984 1854.91,-215.932 1865.5,-215.488 1862.91,-208.984"/>
+</g>
+<!-- ForkJoinTask -->
+<g id="node89" class="node"><title>ForkJoinTask</title>
+<g id="a_node89"><a xlink:title="AbstractClass">
+<polygon fill="#22d223" stroke="#edad56" points="4069,-108 3975,-108 3975,-72 4069,-72 4069,-108"/>
+<text text-anchor="middle" x="4022" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">ForkJoinTask</text>
+</a>
+</g>
+</g>
+<!-- ForkJoinTask&#45;&gt;Serializable -->
+<g id="edge77" class="edge"><title>ForkJoinTask&#45;&gt;Serializable</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M3974.94,-106.05C3971.6,-106.805 3968.26,-107.469 3965,-108 3808.51,-133.483 2662.91,-155.525 2409.52,-160.122"/>
+<polygon fill="none" stroke="#ffffff" points="2409.44,-156.622 2399.5,-160.303 2409.57,-163.621 2409.44,-156.622"/>
+</g>
+<!-- ForkJoinTask&#45;&gt;Future -->
+<g id="edge76" class="edge"><title>ForkJoinTask&#45;&gt;Future</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M4022,-108.303C4022,-116.017 4022,-125.288 4022,-133.888"/>
+<polygon fill="none" stroke="#ffffff" points="4018.5,-133.896 4022,-143.896 4025.5,-133.896 4018.5,-133.896"/>
+</g>
+<!-- ScheduledThreadPoolExecutor -->
+<g id="node90" class="node"><title>ScheduledThreadPoolExecutor</title>
+<g id="a_node90"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="4847.5,-36 4656.5,-36 4656.5,-0 4847.5,-0 4847.5,-36"/>
+<text text-anchor="middle" x="4752" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">ScheduledThreadPoolExecutor</text>
+</a>
+</g>
+</g>
+<!-- ScheduledThreadPoolExecutor&#45;&gt;ThreadPoolExecutor -->
+<g id="edge78" class="edge"><title>ScheduledThreadPoolExecutor&#45;&gt;ThreadPoolExecutor</title>
+<path fill="none" stroke="#ffffff" d="M4727.54,-36.1239C4714.7,-45.1069 4698.8,-56.2375 4684.91,-65.9659"/>
+<polygon fill="none" stroke="#ffffff" points="4682.74,-63.2083 4676.56,-71.8102 4686.76,-68.9429 4682.74,-63.2083"/>
+</g>
+<!-- ScheduledExecutorService -->
+<g id="node91" class="node"><title>ScheduledExecutorService</title>
+<g id="a_node91"><a xlink:title="Interface">
+<polygon fill="#b4a7e5" stroke="#edad56" points="4940.5,-180 4773.5,-180 4773.5,-144 4940.5,-144 4940.5,-180"/>
+<text text-anchor="middle" x="4857" y="-158.3" font-family="Times New Roman,serif" font-size="14.00">ScheduledExecutorService</text>
+</a>
+</g>
+</g>
+<!-- ScheduledThreadPoolExecutor&#45;&gt;ScheduledExecutorService -->
+<g id="edge79" class="edge"><title>ScheduledThreadPoolExecutor&#45;&gt;ScheduledExecutorService</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M4794.05,-36.1417C4810.07,-44.6717 4827.08,-56.5229 4838,-72 4850.7,-89.9984 4855.2,-114.789 4856.67,-133.635"/>
+<polygon fill="none" stroke="#ffffff" points="4853.18,-133.885 4857.21,-143.68 4860.17,-133.506 4853.18,-133.885"/>
+</g>
+<!-- ScheduledExecutorService&#45;&gt;ExecutorService -->
+<g id="edge80" class="edge"><title>ScheduledExecutorService&#45;&gt;ExecutorService</title>
+<path fill="none" stroke="#ffffff" d="M4834.75,-180.303C4823.42,-189.119 4809.47,-199.968 4797.18,-209.526"/>
+<polygon fill="none" stroke="#ffffff" points="4794.74,-206.993 4788.99,-215.896 4799.03,-212.519 4794.74,-206.993"/>
+</g>
+<!-- AbstractQueuedSynchronizer -->
+<g id="node92" class="node"><title>AbstractQueuedSynchronizer</title>
+<g id="a_node92"><a xlink:title="AbstractClass">
+<polygon fill="#22d223" stroke="#edad56" points="2588,-36 2406,-36 2406,-0 2588,-0 2588,-36"/>
+<text text-anchor="middle" x="2497" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">AbstractQueuedSynchronizer</text>
+</a>
+</g>
+</g>
+<!-- AbstractQueuedSynchronizer&#45;&gt;Serializable -->
+<g id="edge81" class="edge"><title>AbstractQueuedSynchronizer&#45;&gt;Serializable</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M2482.4,-36.1426C2466.68,-54.374 2440.74,-83.8528 2417,-108 2407.36,-117.807 2396.37,-128.195 2386.63,-137.151"/>
+<polygon fill="none" stroke="#ffffff" points="2384.17,-134.661 2379.14,-143.987 2388.89,-139.831 2384.17,-134.661"/>
+</g>
+<!-- AbstractQueuedSynchronizer&#45;&gt;AbstractOwnableSynchronizer -->
+<g id="edge82" class="edge"><title>AbstractQueuedSynchronizer&#45;&gt;AbstractOwnableSynchronizer</title>
+<path fill="none" stroke="#ffffff" d="M2512.08,-36.3034C2519.39,-44.6954 2528.31,-54.9295 2536.34,-64.1387"/>
+<polygon fill="none" stroke="#ffffff" points="2533.89,-66.656 2543.09,-71.8957 2539.16,-62.0571 2533.89,-66.656"/>
+</g>
+<!-- AtomicIntegerFieldUpdater -->
+<g id="node93" class="node"><title>AtomicIntegerFieldUpdater</title>
+<g id="a_node93"><a xlink:title="AbstractClass">
+<polygon fill="#22d223" stroke="#edad56" points="7917.5,-36 7748.5,-36 7748.5,-0 7917.5,-0 7917.5,-36"/>
+<text text-anchor="middle" x="7833" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">AtomicIntegerFieldUpdater</text>
+</a>
+</g>
+</g>
+<!-- AtomicBoolean -->
+<g id="node94" class="node"><title>AtomicBoolean</title>
+<g id="a_node94"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="3354,-108 3250,-108 3250,-72 3354,-72 3354,-108"/>
+<text text-anchor="middle" x="3302" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">AtomicBoolean</text>
+</a>
+</g>
+</g>
+<!-- AtomicBoolean&#45;&gt;Serializable -->
+<g id="edge83" class="edge"><title>AtomicBoolean&#45;&gt;Serializable</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M3249.92,-106.296C3246.92,-106.934 3243.93,-107.51 3241,-108 2928.02,-160.418 2544.84,-162.711 2409.89,-161.675"/>
+<polygon fill="none" stroke="#ffffff" points="2409.88,-158.175 2399.85,-161.588 2409.82,-165.175 2409.88,-158.175"/>
+</g>
+<!-- TimeoutException -->
+<g id="node95" class="node"><title>TimeoutException</title>
+<g id="a_node95"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="4633.5,-36 4514.5,-36 4514.5,-0 4633.5,-0 4633.5,-36"/>
+<text text-anchor="middle" x="4574" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">TimeoutException</text>
+</a>
+</g>
+</g>
+<!-- TimeoutException&#45;&gt;Exception -->
+<g id="edge84" class="edge"><title>TimeoutException&#45;&gt;Exception</title>
+<path fill="none" stroke="#ffffff" d="M4539.26,-36.1239C4520.18,-45.5307 4496.32,-57.2923 4475.95,-67.3328"/>
+<polygon fill="none" stroke="#ffffff" points="4474.29,-64.2494 4466.87,-71.8102 4477.39,-70.528 4474.29,-64.2494"/>
+</g>
+<!-- Callable -->
+<g id="node96" class="node"><title>Callable</title>
+<g id="a_node96"><a xlink:title="Interface">
+<polygon fill="#b4a7e5" stroke="#edad56" points="7996.5,-36 7935.5,-36 7935.5,-0 7996.5,-0 7996.5,-36"/>
+<text text-anchor="middle" x="7966" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">Callable</text>
+</a>
+</g>
+</g>
+<!-- ConcurrentHashMap -->
+<g id="node97" class="node"><title>ConcurrentHashMap</title>
+<g id="a_node97"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="657,-108 523,-108 523,-72 657,-72 657,-108"/>
+<text text-anchor="middle" x="590" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">ConcurrentHashMap</text>
+</a>
+</g>
+</g>
+<!-- ConcurrentHashMap&#45;&gt;Serializable -->
+<g id="edge87" class="edge"><title>ConcurrentHashMap&#45;&gt;Serializable</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M657.011,-106.745C660.041,-107.218 663.047,-107.641 666,-108 1026.76,-151.881 1941.73,-89.2326 2301,-144 2304.06,-144.467 2307.19,-145.047 2310.33,-145.708"/>
+<polygon fill="none" stroke="#ffffff" points="2309.79,-149.176 2320.32,-148.059 2311.39,-142.362 2309.79,-149.176"/>
+</g>
+<!-- ConcurrentHashMap&#45;&gt;AbstractMap&lt;K,V&gt; -->
+<g id="edge86" class="edge"><title>ConcurrentHashMap&#45;&gt;AbstractMap&lt;K,V&gt;</title>
+<path fill="none" stroke="#ffffff" d="M590.494,-108.303C590.715,-116.017 590.98,-125.288 591.225,-133.888"/>
+<polygon fill="none" stroke="#ffffff" points="587.727,-134 591.511,-143.896 594.724,-133.8 587.727,-134"/>
+</g>
+<!-- ConcurrentHashMap&#45;&gt;ConcurrentMap -->
+<g id="edge85" class="edge"><title>ConcurrentHashMap&#45;&gt;ConcurrentMap</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M623.759,-108.124C642.22,-117.488 665.282,-129.186 685.017,-139.197"/>
+<polygon fill="none" stroke="#ffffff" points="683.61,-142.408 694.112,-143.81 686.777,-136.165 683.61,-142.408"/>
+</g>
+<!-- CountDownLatch -->
+<g id="node98" class="node"><title>CountDownLatch</title>
+<g id="a_node98"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="8131,-36 8015,-36 8015,-0 8131,-0 8131,-36"/>
+<text text-anchor="middle" x="8073" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">CountDownLatch</text>
+</a>
+</g>
+</g>
+<!-- LinkedTransferQueue -->
+<g id="node99" class="node"><title>LinkedTransferQueue</title>
+<g id="a_node99"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="2024,-108 1886,-108 1886,-72 2024,-72 2024,-108"/>
+<text text-anchor="middle" x="1955" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">LinkedTransferQueue</text>
+</a>
+</g>
+</g>
+<!-- LinkedTransferQueue&#45;&gt;Serializable -->
+<g id="edge88" class="edge"><title>LinkedTransferQueue&#45;&gt;Serializable</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M2024.26,-106.401C2027.21,-106.96 2030.13,-107.496 2033,-108 2151.36,-128.813 2183.39,-119.296 2301,-144 2304.03,-144.637 2307.14,-145.348 2310.26,-146.109"/>
+<polygon fill="none" stroke="#ffffff" points="2309.65,-149.568 2320.21,-148.676 2311.4,-142.79 2309.65,-149.568"/>
+</g>
+<!-- LinkedTransferQueue&#45;&gt;AbstractQueue&lt;E&gt; -->
+<g id="edge90" class="edge"><title>LinkedTransferQueue&#45;&gt;AbstractQueue&lt;E&gt;</title>
+<path fill="none" stroke="#ffffff" d="M1885.77,-106.591C1882.81,-107.098 1879.88,-107.571 1877,-108 1682.06,-137.05 1631.42,-127.654 1435,-144 1392.94,-147.5 1345.91,-151.494 1308.03,-154.73"/>
+<polygon fill="none" stroke="#ffffff" points="1307.27,-151.283 1297.6,-155.622 1307.86,-158.257 1307.27,-151.283"/>
+</g>
+<!-- LinkedTransferQueue&#45;&gt;TransferQueue -->
+<g id="edge89" class="edge"><title>LinkedTransferQueue&#45;&gt;TransferQueue</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M1963.16,-108.303C1966.91,-116.272 1971.45,-125.9 1975.62,-134.736"/>
+<polygon fill="none" stroke="#ffffff" points="1972.51,-136.343 1979.94,-143.896 1978.84,-133.358 1972.51,-136.343"/>
+</g>
+<!-- TimeUnit -->
+<g id="node100" class="node"><title>TimeUnit</title>
+<g id="a_node100"><a xlink:title="Enum">
+<polygon fill="#e3664a" stroke="#edad56" points="8217,-36 8149,-36 8149,-0 8217,-0 8217,-36"/>
+<text text-anchor="middle" x="8183" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">TimeUnit</text>
+</a>
+</g>
+</g>
+<!-- Semaphore -->
+<g id="node101" class="node"><title>Semaphore</title>
+<g id="a_node101"><a xlink:title="Class">
+<polygon fill="#add1b2" stroke="#edad56" points="3452,-108 3372,-108 3372,-72 3452,-72 3452,-108"/>
+<text text-anchor="middle" x="3412" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">Semaphore</text>
+</a>
+</g>
+</g>
+<!-- Semaphore&#45;&gt;Serializable -->
+<g id="edge91" class="edge"><title>Semaphore&#45;&gt;Serializable</title>
+<path fill="none" stroke="#ffffff" stroke-dasharray="5,2" d="M3371.87,-105.926C3368.89,-106.723 3365.92,-107.429 3363,-108 3177.29,-144.366 2585.47,-157.165 2409.69,-160.218"/>
+<polygon fill="none" stroke="#ffffff" points="2409.63,-156.719 2399.69,-160.389 2409.75,-163.718 2409.63,-156.719"/>
+</g>
+</g>
+</svg>

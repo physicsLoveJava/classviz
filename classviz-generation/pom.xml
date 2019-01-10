@@ -9,13 +9,16 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>classviz-grammar</artifactId>
+    <artifactId>classviz-generation</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>com.github.javaparser</groupId>
-            <artifactId>javaparser-core</artifactId>
-            <version>3.9.1</version>
+            <groupId>com.lujian</groupId>
+            <artifactId>classviz-grammar</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.lujian</groupId>
+            <artifactId>classviz-visualize</artifactId>
         </dependency>
     </dependencies>
 
