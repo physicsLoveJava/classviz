@@ -3,11 +3,12 @@
     <parent>
         <artifactId>classviz</artifactId>
         <groupId>com.lujian</groupId>
-        <version>1.0.0</version>
+        <version>1.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>classviz-generation</artifactId>
+  <version>1.0.0</version>
 
     <dependencies>
         <dependency>
@@ -19,9 +20,4 @@
             <artifactId>classviz-visualize</artifactId>
         </dependency>
     </dependencies>
-
-
-  <scm>
-    <tag>v1.0.0</tag>
-  </scm>
 </project>
