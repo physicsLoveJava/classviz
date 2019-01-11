@@ -5,7 +5,7 @@
     <groupId>com.lujian</groupId>
     <artifactId>classviz</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
     <modules>
         <module>classviz-visualize</module>
         <module>classviz-grammar</module>
@@ -25,12 +25,12 @@
             <dependency>
                 <groupId>com.lujian</groupId>
                 <artifactId>classviz-grammar</artifactId>
-                <version>1.0.0</version>
+                <version>1.0.1</version>
             </dependency>
             <dependency>
                 <groupId>com.lujian</groupId>
                 <artifactId>classviz-visualize</artifactId>
-                <version>1.0.0</version>
+                <version>1.0.1</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -140,7 +140,7 @@
         <url>https://github.com/physicsLoveJava/classviz</url>
         <connection>scm:git:https://github.com/physicsLoveJava/classviz.git</connection>
         <developerConnection>scm:git:https://github.com/physicsLoveJava/classviz.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>v1.0.1</tag>
   </scm>
     <developers>
         <developer>
