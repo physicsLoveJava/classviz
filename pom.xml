@@ -6,6 +6,9 @@
     <artifactId>classviz</artifactId>
     <packaging>pom</packaging>
     <version>1.0.2-SNAPSHOT</version>
+    <name>classviz</name>
+    <description>A Tool for class dependencies visualization</description>
+    <url>https://github.com/physicsLoveJava/classviz</url>
     <modules>
         <module>classviz-visualize</module>
         <module>classviz-grammar</module>
