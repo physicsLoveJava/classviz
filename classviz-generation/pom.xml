@@ -2,8 +2,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>classviz</artifactId>
-        <groupId>com.lujian</groupId>
-        <version>1.0.2-SNAPSHOT</version>
+        <groupId>com.github.physicslovejava</groupId>
+        <version>1.0.2</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -12,12 +12,16 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.lujian</groupId>
+            <groupId>com.github.physicslovejava</groupId>
             <artifactId>classviz-grammar</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.lujian</groupId>
+            <groupId>com.github.physicslovejava</groupId>
             <artifactId>classviz-visualize</artifactId>
         </dependency>
     </dependencies>
+
+  <scm>
+    <tag>classviz-1.0.2</tag>
+  </scm>
 </project>
