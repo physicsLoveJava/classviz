@@ -5,7 +5,7 @@
     <groupId>com.github.physicslovejava</groupId>
     <artifactId>classviz</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.2</version>
+    <version>1.0.3-SNAPSHOT</version>
     <name>classviz</name>
     <description>A Tool for class dependencies visualization</description>
     <url>https://github.com/physicsLoveJava/classviz</url>
@@ -28,12 +28,12 @@
             <dependency>
                 <groupId>com.github.physicslovejava</groupId>
                 <artifactId>classviz-grammar</artifactId>
-                <version>1.0.0</version>
+                <version>1.0.1-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>com.github.physicslovejava</groupId>
                 <artifactId>classviz-visualize</artifactId>
-                <version>1.0.0</version>
+                <version>1.0.1-SNAPSHOT</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -231,7 +231,7 @@
         <url>https://github.com/physicsLoveJava/classviz</url>
         <connection>scm:git:https://github.com/physicsLoveJava/classviz.git</connection>
         <developerConnection>scm:git:https://github.com/physicsLoveJava/classviz.git</developerConnection>
-        <tag>classviz-1.0.2</tag>
+        <tag>HEAD</tag>
     </scm>
     <developers>
         <developer>

@@ -3,12 +3,12 @@
     <parent>
         <artifactId>classviz</artifactId>
         <groupId>com.github.physicslovejava</groupId>
-        <version>1.0.2</version>
+        <version>1.0.3-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>classviz-generation</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
 
     <dependencies>
         <dependency>
@@ -20,8 +20,4 @@
             <artifactId>classviz-visualize</artifactId>
         </dependency>
     </dependencies>
-
-  <scm>
-    <tag>classviz-1.0.2</tag>
-  </scm>
 </project>
