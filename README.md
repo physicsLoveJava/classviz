@@ -3,7 +3,11 @@
 ### maven repository
 maven repository
 ```java
-
+<dependency>
+    <groudId>com.github.physicsLoveJava</groupId>
+    <artifactId>classviz</artifactId>
+    <version>1.0.2</version>
+</denpendency>
 ```
 
 ### Usage
