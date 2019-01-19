@@ -4,10 +4,10 @@
 maven repository
 ```java
 <dependency>
-    <groudId>com.github.physicsLoveJava</groupId>
+    <groupId>com.github.physicslovejava</groupId>
     <artifactId>classviz</artifactId>
     <version>1.0.2</version>
-</denpendency>
+</dependency>
 ```
 
 ### Usage
